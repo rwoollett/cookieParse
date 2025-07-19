@@ -14,7 +14,7 @@ find_package(pybind11 REQUIRED)
 
 add_subdirectory(cookies)
 
-option(BUILD_TESTS "Build tests" ON)
+option(BUILD_TESTS "Build tests" OFF)
 
 if(BUILD_TESTS)
 
